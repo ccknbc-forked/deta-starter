@@ -3,12 +3,19 @@
   "version": "1.0.0",
   "description": "An Waline app repository for deta",
   "main": "index.js",
-  "keywords": ["Waline", "Comment"],
+  "keywords": [
+    "Waline",
+    "Comment"
+  ],
   "scripts": {
-    "postinstall": "curl -sf https://gobinaries.com/tj/node-prune | sh && node-prune"
+    "postinstall": "curl -sf https://gobinaries.com/tj/node-prune | sh && node-prune",
+    "prepublish": "npm run snyk-protect",
+    "snyk-protect": "snyk-protect"
   },
   "author": "lizheming<i@imnerd.org>",
   "dependencies": {
-    "@waline/vercel": "1.26.3-deta-alpha.0"   
-  }
+    "@waline/vercel": "1.26.3-deta-alpha.0",
+    "@snyk/protect": "latest"
+  },
+  "snyk": true
 }
