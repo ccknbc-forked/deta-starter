@@ -1,0 +1,90 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.25.1
+ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  'npm:ms:20170412':
+    - '@waline/vercel > think-model-sqlite > think-helper > ms':
+        patched: '2023-08-12T22:00:42.287Z'
+        id: 'npm:ms:20170412'
+        path: '@waline/vercel > think-model-sqlite > think-helper > ms'
+    - '@waline/vercel > thinkjs > think-helper > ms':
+        patched: '2023-08-12T22:00:42.287Z'
+        id: 'npm:ms:20170412'
+        path: '@waline/vercel > thinkjs > think-helper > ms'
+    - '@waline/vercel > think-model-sqlite > think-model-abstract > think-helper > ms':
+        patched: '2023-08-12T22:00:42.287Z'
+        id: 'npm:ms:20170412'
+        path: >-
+          @waline/vercel > think-model-sqlite > think-model-abstract >
+          think-helper > ms
+    - '@waline/vercel > think-model-sqlite > think-instance > think-helper > ms':
+        patched: '2023-08-12T22:00:42.287Z'
+        id: 'npm:ms:20170412'
+        path: >-
+          @waline/vercel > think-model-sqlite > think-instance > think-helper >
+          ms
+    - '@waline/vercel > thinkjs > think-cluster > think-helper > ms':
+        patched: '2023-08-12T22:00:42.287Z'
+        id: 'npm:ms:20170412'
+        path: '@waline/vercel > thinkjs > think-cluster > think-helper > ms'
+    - '@waline/vercel > thinkjs > think-config > think-helper > ms':
+        patched: '2023-08-12T22:00:42.287Z'
+        id: 'npm:ms:20170412'
+        path: '@waline/vercel > thinkjs > think-config > think-helper > ms'
+    - '@waline/vercel > thinkjs > think-controller > think-helper > ms':
+        patched: '2023-08-12T22:00:42.287Z'
+        id: 'npm:ms:20170412'
+        path: '@waline/vercel > thinkjs > think-controller > think-helper > ms'
+    - '@waline/vercel > thinkjs > think-mock-http > think-helper > ms':
+        patched: '2023-08-12T22:00:42.287Z'
+        id: 'npm:ms:20170412'
+        path: '@waline/vercel > thinkjs > think-mock-http > think-helper > ms'
+    - '@waline/vercel > thinkjs > think-crontab > think-helper > ms':
+        patched: '2023-08-12T22:00:42.287Z'
+        id: 'npm:ms:20170412'
+        path: '@waline/vercel > thinkjs > think-crontab > think-helper > ms'
+    - '@waline/vercel > thinkjs > think-loader > think-helper > ms':
+        patched: '2023-08-12T22:00:42.287Z'
+        id: 'npm:ms:20170412'
+        path: '@waline/vercel > thinkjs > think-loader > think-helper > ms'
+    - '@waline/vercel > thinkjs > think-logic > think-helper > ms':
+        patched: '2023-08-12T22:00:42.287Z'
+        id: 'npm:ms:20170412'
+        path: '@waline/vercel > thinkjs > think-logic > think-helper > ms'
+    - '@waline/vercel > thinkjs > think-meta > think-helper > ms':
+        patched: '2023-08-12T22:00:42.287Z'
+        id: 'npm:ms:20170412'
+        path: '@waline/vercel > thinkjs > think-meta > think-helper > ms'
+    - '@waline/vercel > thinkjs > think-payload > think-helper > ms':
+        patched: '2023-08-12T22:00:42.287Z'
+        id: 'npm:ms:20170412'
+        path: '@waline/vercel > thinkjs > think-payload > think-helper > ms'
+    - '@waline/vercel > thinkjs > think-resource > think-helper > ms':
+        patched: '2023-08-12T22:00:42.287Z'
+        id: 'npm:ms:20170412'
+        path: '@waline/vercel > thinkjs > think-resource > think-helper > ms'
+    - '@waline/vercel > thinkjs > think-router > think-helper > ms':
+        patched: '2023-08-12T22:00:42.287Z'
+        id: 'npm:ms:20170412'
+        path: '@waline/vercel > thinkjs > think-router > think-helper > ms'
+    - '@waline/vercel > thinkjs > think-trace > think-helper > ms':
+        patched: '2023-08-12T22:00:42.287Z'
+        id: 'npm:ms:20170412'
+        path: '@waline/vercel > thinkjs > think-trace > think-helper > ms'
+    - '@waline/vercel > thinkjs > think-validator > think-helper > ms':
+        patched: '2023-08-12T22:00:42.287Z'
+        id: 'npm:ms:20170412'
+        path: '@waline/vercel > thinkjs > think-validator > think-helper > ms'
+    - '@waline/vercel > thinkjs > think-crontab > think-cluster > think-helper > ms':
+        patched: '2023-08-12T22:00:42.287Z'
+        id: 'npm:ms:20170412'
+        path: >-
+          @waline/vercel > thinkjs > think-crontab > think-cluster >
+          think-helper > ms
+    - '@waline/vercel > thinkjs > think-crontab > think-mock-http > think-helper > ms':
+        patched: '2023-08-12T22:00:42.287Z'
+        id: 'npm:ms:20170412'
+        path: >-
+          @waline/vercel > thinkjs > think-crontab > think-mock-http >
+          think-helper > ms
